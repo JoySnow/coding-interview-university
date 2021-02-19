@@ -597,7 +597,7 @@
 
 ## 树（Trees）
 
-- ### [x] 树 —— 笔记 & 背景
+- [x] ### 树 —— 笔记 & 背景
     - [ ] [系列：树（视频）](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 基本的树形结构
     - 遍历
@@ -618,7 +618,7 @@
             - 后序遍历（DFS：左、右、节点本身）
             - 先序遍历（DFS：节点本身、左、右）
 
-- ### 二叉查找树（Binary search trees）：BSTs
+- [x] ### 二叉查找树（Binary search trees）：BSTs
     - [ ] [二叉查找树概览（视频）](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [系列（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - 从符号表开始到 BST 程序
