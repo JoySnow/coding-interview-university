@@ -437,7 +437,7 @@
 
 ## 数据结构
 
-- ### 数组（Arrays）
+- ### [x] 数组（Arrays）
     - 实现一个可自动调整大小的动态数组。
     - [ ] 介绍：
         - [数组（视频）](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
@@ -474,7 +474,7 @@
         - 因为在内存中分配的空间邻近，所以有助于提高性能
         - 空间需求 = （大于或等于 n 的数组容积）* 元素的大小。即便空间需求为 2n，其空间复杂度仍然是 O(n)
 
-- ### 链表（Linked Lists）
+- ### [x] 链表（Linked Lists）
     - [ ] 介绍：
         - [ ] [单向链表（视频）](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
         - [ ] [CS 61B —— 链表（一）（视频）](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
@@ -505,12 +505,12 @@
         - [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/jpGKD/doubly-linked-lists)
         - 并不需要实现
 
-- ### 堆栈（Stack）
+- ### [x] 堆栈（Stack）
     - [ ] [堆栈（视频）](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
     - [ ] [使用堆栈 —— 后进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
-- ### 队列（Queue）
+- ### [x] 队列（Queue）
     - [ ] [使用队列 —— 先进先出（视频）](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
@@ -530,8 +530,8 @@
         - dequeue：O(1)（链表和数组）
         - empty：O(1)（链表和数组）
 
-- ### 哈希表（Hash table）
-    - [ ] 视频：
+- ### [x] 哈希表（Hash table）
+    - [x] 视频：
         - [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
         - [ ] [Open Addressing 和密码型哈希（Cryptographic Hashing）（视频）](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
@@ -539,7 +539,7 @@
         - [ ] [（进阶）随机取样（Randomization）：全域哈希（Universal Hashing）& 完美哈希（Perfect Hashing）（视频）](https://www.youtube.com/watch?v=z0lJ2k0sl1g&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=11)
         - [ ] [（进阶）完美哈希（Perfect hashing）（视频）](https://www.youtube.com/watch?v=N0COwN14gt0&list=PL2B4EEwhKD-NbwZ4ezj7gyc_3yNrojKM9&index=4)
 
-    - [ ] 在线课程：
+    - [x] 在线课程：
         - [ ] [理解哈希函数（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_02-understandingHashFunctions.mp4)
         - [ ] [使用哈希表（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_03-usingHashTables.mp4)
         - [ ] [支持哈希（视频）](https://archive.org/details/0102WhatYouShouldKnow/06_04-supportingHashing.mp4)
@@ -551,7 +551,7 @@
             - [Dropbox 中的瞬时上传及存储优化（视频）](https://www.coursera.org/learn/data-structures/lecture/DvaIb/instant-uploads-and-storage-optimization-in-dropbox)
             - [分布式哈希表（视频）](https://www.coursera.org/learn/data-structures/lecture/tvH8H/distributed-hash-tables)
 
-    - [ ] 使用线性探测的数组去实现
+    - [x] 使用线性探测的数组去实现
         - hash(k, m) —— m 是哈希表的大小
         - add(key, value) —— 如果 key 已存在则更新值
         - exists(key)
@@ -597,7 +597,7 @@
 
 ## 树（Trees）
 
-- ### 树 —— 笔记 & 背景
+- ### [x] 树 —— 笔记 & 背景
     - [ ] [系列：树（视频）](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 基本的树形结构
     - 遍历
